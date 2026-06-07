@@ -100,24 +100,23 @@ export function Navbar() {
 }
 
 const slides = [
-  {
-    id: 1,
-    image: '/src/assets/images/english_class_kids_1780798743394.png',
-    title: 'Crecimiento Integral',
-    titleEn: 'Integral Growth'
-  },
-  {
-    id: 2,
-    image: '/src/assets/images/kids_music_instruments_1780798755504.png',
-    title: 'Expresión Artística',
-    titleEn: 'Artistic Expression'
-  },
-  {
-    id: 3,
-    image: '/src/assets/images/folk_dance_kids_1780798767418.png',
-    title: 'Pasión y Cultura',
-    titleEn: 'Passion and Culture'
-  }
+  { id: 1, image: '/src/assets/photos/1.jpg' },
+  { id: 2, image: '/src/assets/photos/2.jpg' },
+  { id: 3, image: '/src/assets/photos/3.jpg' },
+  { id: 4, image: '/src/assets/photos/4.jpg' },
+  { id: 5, image: '/src/assets/photos/5.jpg' },
+  { id: 6, image: '/src/assets/photos/6.jpg' },
+  { id: 7, image: '/src/assets/photos/7.jpg' },
+  { id: 8, image: '/src/assets/photos/8.jpg' },
+  { id: 9, image: '/src/assets/photos/9.jpg' },
+  { id: 10, image: '/src/assets/photos/10.jpg' },
+  { id: 15, image: '/src/assets/photos/15.jpg' },
+  { id: 20, image: '/src/assets/photos/20.jpg' },
+  { id: 25, image: '/src/assets/photos/25.jpg' },
+  { id: 30, image: '/src/assets/photos/30.jpg' },
+  { id: 40, image: '/src/assets/photos/40.jpg' },
+  { id: 50, image: '/src/assets/photos/50.jpg' },
+  { id: 60, image: '/src/assets/photos/60.jpg' },
 ];
 
 export function Hero() {

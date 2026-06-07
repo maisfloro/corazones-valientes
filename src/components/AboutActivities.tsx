@@ -49,7 +49,7 @@ export function About() {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl skew-y-1">
                <img 
-                 src="/src/assets/images/arts_and_crafts_kids_1780798779610.png" 
+                 src="/src/assets/photos/9.jpg" 
                  alt="Actividades de la fundación" 
                  className="w-full h-auto"
                />
@@ -69,11 +69,11 @@ export function Activities() {
   const { t } = useLanguage();
 
   const activityList = [
-    { title: t.activityEnglish, icon: '🔤', image: '/src/assets/images/english_class_kids_1780798743394.png' },
-    { title: t.activityMusic, icon: '🎵', image: '/src/assets/images/kids_music_instruments_1780798755504.png' },
-    { title: t.activityDance, icon: '💃', image: '/src/assets/images/folk_dance_kids_1780798767418.png' },
-    { title: t.activityArts, icon: '🎨', image: '/src/assets/images/arts_and_crafts_kids_1780798779610.png' },
-    { title: t.activityValues, icon: '🤝', image: '/src/assets/images/arts_and_crafts_kids_1780798779610.png' },
+    { title: t.activityEnglish, description: t.activityEnglishDesc, icon: '🔤', color: 'bg-blue-50 text-blue-600' },
+    { title: t.activityMusic, description: t.activityMusicDesc, icon: '🎵', color: 'bg-purple-50 text-purple-600' },
+    { title: t.activityDance, description: t.activityDanceDesc, icon: '💃', color: 'bg-orange-50 text-orange-600' },
+    { title: t.activityArts, description: t.activityArtsDesc, icon: '🎨', color: 'bg-pink-50 text-pink-600' },
+    { title: t.activityValues, description: t.activityValuesDesc, icon: '🤝', color: 'bg-green-50 text-green-600' },
   ];
 
   return (
@@ -91,18 +91,15 @@ export function Activities() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: index * 0.1 }}
-            className="group relative h-80 rounded-3xl overflow-hidden shadow-lg cursor-pointer"
+            className="bg-white p-10 rounded-[2rem] shadow-sm hover:shadow-xl transition-all duration-300 border border-gray-100 flex flex-col items-center text-center group"
           >
-             <img 
-               src={act.image} 
-               alt={act.title}
-               className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110"
-             />
-             <div className="absolute inset-0 bg-black/40 group-hover:bg-brand-red/60 transition-colors duration-500" />
-             <div className="absolute bottom-0 left-0 right-0 p-8 text-white">
-                <span className="text-4xl mb-4 block">{act.icon}</span>
-                <h3 className="text-2xl font-bold">{act.title}</h3>
+             <div className={`w-20 h-20 ${act.color} rounded-2xl flex items-center justify-center text-4xl mb-8 group-hover:scale-110 transition-transform duration-300`}>
+                {act.icon}
              </div>
+             <h3 className="text-2xl font-bold text-gray-900 mb-4 group-hover:text-brand-red transition-colors">{act.title}</h3>
+             <p className="text-gray-600 leading-relaxed">
+                {act.description}
+             </p>
           </motion.div>
         ))}
       </div>

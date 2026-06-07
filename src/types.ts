@@ -13,10 +13,15 @@ export interface Translation {
   activitiesTitle: string;
   activitiesSubtitle: string;
   activityEnglish: string;
+  activityEnglishDesc: string;
   activityMusic: string;
+  activityMusicDesc: string;
   activityDance: string;
+  activityDanceDesc: string;
   activityArts: string;
+  activityArtsDesc: string;
   activityValues: string;
+  activityValuesDesc: string;
   termsTitle: string;
   termsBody1: string;
   termsBody2: string;
@@ -42,10 +47,15 @@ export const translations: Record<Language, Translation> = {
     activitiesTitle: 'Lo que Hacemos',
     activitiesSubtitle: 'Ofrecemos diversos programas diseñados para el desarrollo de niños y niñas.',
     activityEnglish: 'Clases de Inglés',
+    activityEnglishDesc: 'Abre puertas a nuevas oportunidades y conecta con el mundo.',
     activityMusic: 'Música (Instrumentos)',
+    activityMusicDesc: 'Descubre el talento y armoniza el espíritu a través de las notas.',
     activityDance: 'Danza Folclórica',
+    activityDanceDesc: 'Mantiene vivas nuestras raíces y celebra la alegría del movimiento.',
     activityArts: 'Artes',
+    activityArtsDesc: 'Fomenta la creatividad y permite expresar lo que el corazón siente.',
     activityValues: 'Reforzamiento en Valores',
+    activityValuesDesc: 'Forja el carácter para construir ciudadanos de bien y solidarios.',
     termsTitle: 'Términos y Condiciones',
     termsBody1: 'Fundación gratuita para la comunidad. No hay cobros por servicio ni ánimo de lucro.',
     termsBody2: 'Nos reservamos el derecho de admisión para proteger a la comunidad.',
@@ -67,10 +77,15 @@ export const translations: Record<Language, Translation> = {
     activitiesTitle: 'What We Do',
     activitiesSubtitle: 'We offer various programs designed for child development.',
     activityEnglish: 'English Classes',
+    activityEnglishDesc: 'Opens doors to new opportunities and connects with the world.',
     activityMusic: 'Music (Instruments)',
+    activityMusicDesc: 'Discover talent and harmonize the spirit through notes.',
     activityDance: 'Folk Dance',
+    activityDanceDesc: 'Keeps our roots alive and celebrates the joy of movement.',
     activityArts: 'Arts',
+    activityArtsDesc: 'Fosters creativity and allows expressing what the heart feels.',
     activityValues: 'Values Reinforcement',
+    activityValuesDesc: 'Forges character to build good and supportive citizens.',
     termsTitle: 'Terms and Conditions',
     termsBody1: 'Free foundation for the community. No service fees or profit motive.',
     termsBody2: 'We reserve the right of admission to protect the community.',
