@@ -1,0 +1,8 @@
+{
+  "name": "Fundación Corazones Valientes",
+  "description": "Sitio oficial de la Fundación Corazones Valientes, dedicada al servicio comunitario desde 2021.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
