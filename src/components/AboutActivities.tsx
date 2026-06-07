@@ -49,7 +49,7 @@ export function About() {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl skew-y-1">
                <img 
-                 src="/src/assets/photos/9.jpg" 
+                 src="/photos/9.jpg" 
                  alt="Actividades de la fundación" 
                  className="w-full h-auto"
                />

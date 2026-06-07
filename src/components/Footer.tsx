@@ -13,7 +13,7 @@ export function Footer() {
         <div className="space-y-6">
            <div className="flex items-center gap-2">
              <img 
-               src="/src/assets/images/modern_foundation_logo_1780799544483.png" 
+               src="/images/modern_foundation_logo_1780799544483.png" 
                alt="Corazones Valientes Logo" 
                className="w-20 h-20 object-contain"
              />
