@@ -64,7 +64,7 @@ export function Footer() {
       </div>
 
       <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-6 text-sm text-white/40">
-        <p>&copy; {new Date().getFullYear()} Fundación Corazones Valientes de Dios. {t.footerRights}</p>
+        <p>&copy; {new Date().getFullYear()} Fundación Corazones Valientes. {t.footerRights}</p>
         <div className="flex gap-8">
            <a href="#terminos" className="hover:text-white transition-colors">{t.navTerms}</a>
         </div>

@@ -156,7 +156,7 @@ export function Hero() {
           transition={{ delay: 0.5, duration: 0.8 }}
         >
           <span className="text-white/80 uppercase tracking-widest font-bold mb-4 block text-sm sm:text-base">
-            {language === 'es' ? 'Fundación Cristiana' : 'Christian Foundation'}
+            {language === 'es' ? 'Fundación' : 'Foundation'}
           </span>
           <h1 className="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight">
             {t.heroTitle}
