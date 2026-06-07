@@ -99,12 +99,13 @@ export function Navbar() {
   );
 }
 
-const logo = '/images/modern_foundation_logo_1780799544483.png';
+import logo from '../assets/images/modern_foundation_logo_1780799544483.png';
 
+const photos = import.meta.glob('../assets/photos/*.jpg', { eager: true, import: 'default' });
 const slideIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 40, 50, 60];
 const slides = slideIds.map(id => ({
   id,
-  image: `/photos/${id}.jpg`
+  image: photos[`../assets/photos/${id}.jpg`] as string
 }));
 
 export function Hero() {

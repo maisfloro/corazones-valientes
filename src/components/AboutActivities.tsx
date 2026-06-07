@@ -4,6 +4,8 @@ import { motion } from 'motion/react';
 import { useLanguage } from './LanguageContext';
 import { Heart, Stars, ShieldCheck } from 'lucide-react';
 
+import photo9 from '../assets/photos/9.jpg';
+
 export function About() {
   const { t, language } = useLanguage();
 
@@ -49,7 +51,7 @@ export function About() {
           >
             <div className="relative z-10 rounded-3xl overflow-hidden shadow-2xl skew-y-1">
                <img 
-                 src="/photos/9.jpg" 
+                 src={photo9} 
                  alt="Actividades de la fundación" 
                  className="w-full h-auto"
                />
