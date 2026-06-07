@@ -3,7 +3,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Phone, MapPin, Instagram, Facebook, Heart } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
-import logo from '../assets/images/modern_foundation_logo_1780799544483.png';
+const logo = 'https://raw.githubusercontent.com/maisfloro/corazones-valientes/main/src/assets/images/modern_foundation_logo_1780799544483.png';
 
 export function Footer() {
   const { t, language } = useLanguage();
