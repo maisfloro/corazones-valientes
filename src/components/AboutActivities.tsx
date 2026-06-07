@@ -4,7 +4,7 @@ import { motion } from 'motion/react';
 import { useLanguage } from './LanguageContext';
 import { Heart, Stars, ShieldCheck } from 'lucide-react';
 
-import photo9 from '../assets/photos/9.jpg';
+import photo9 from '../artefacts/photos/9.jpg';
 
 export function About() {
   const { t, language } = useLanguage();
