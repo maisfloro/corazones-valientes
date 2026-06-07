@@ -12,9 +12,11 @@ export function Footer() {
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-16">
         <div className="space-y-6">
            <div className="flex items-center gap-2">
-             <div className="w-10 h-10 bg-brand-red rounded-full flex items-center justify-center">
-               <span className="font-bold text-xl">C</span>
-             </div>
+             <img 
+               src="/src/assets/images/modern_foundation_logo_1780799544483.png" 
+               alt="Corazones Valientes Logo" 
+               className="w-20 h-20 object-contain"
+             />
              <span className="font-display font-bold text-xl uppercase tracking-tighter">
                Corazones Valientes
              </span>

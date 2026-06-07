@@ -30,9 +30,11 @@ export function Navbar() {
           animate={{ opacity: 1, x: 0 }}
           className="flex items-center gap-2"
         >
-          <div className="w-10 h-10 bg-brand-red rounded-full flex items-center justify-center shadow-lg">
-             <span className="text-white font-bold text-xl">C</span>
-          </div>
+          <img 
+            src="/src/assets/images/modern_foundation_logo_1780799544483.png" 
+            alt="Corazones Valientes Logo" 
+            className="w-20 h-20 object-contain"
+          />
           <span className={`font-display font-bold text-lg hidden sm:block ${scrolled ? 'text-gray-900' : 'text-white'}`}>
             CORAZONES VALIENTES
           </span>
