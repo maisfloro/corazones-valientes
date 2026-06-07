@@ -99,13 +99,12 @@ export function Navbar() {
   );
 }
 
-const GITHUB_RAW_BASE = 'https://raw.githubusercontent.com/maisfloro/corazones-valientes/main';
-const logo = `${GITHUB_RAW_BASE}/src/assets/images/modern_foundation_logo_1780799544483.png`;
+const logo = '/images/modern_foundation_logo_1780799544483.png';
 
 const slideIds = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 15, 20, 25, 30, 40, 50, 60];
 const slides = slideIds.map(id => ({
   id,
-  image: `${GITHUB_RAW_BASE}/src/assets/photos/${id}.jpg`
+  image: `/photos/${id}.jpg`
 }));
 
 export function Hero() {
