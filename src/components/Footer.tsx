@@ -3,6 +3,7 @@ import React from 'react';
 import { motion } from 'motion/react';
 import { Phone, MapPin, Instagram, Facebook, Heart } from 'lucide-react';
 import { useLanguage } from './LanguageContext';
+import logo from '../assets/images/modern_foundation_logo_1780799544483.png';
 
 export function Footer() {
   const { t, language } = useLanguage();
@@ -13,7 +14,7 @@ export function Footer() {
         <div className="space-y-6">
            <div className="flex items-center gap-2">
              <img 
-               src="/images/modern_foundation_logo_1780799544483.png" 
+               src={logo} 
                alt="Corazones Valientes Logo" 
                className="w-20 h-20 object-contain"
              />
